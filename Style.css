@@ -1,0 +1,402 @@
+.todo{
+    padding: 3em 0;
+    background: linear-gradient( #FFFFFF,hsl(48, 88%, 48%));
+}
+
+body{ 
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header{
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #1EC079;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: hsl(48, 88%, 48%);
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;      
+
+}
+.productos li{
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;    
+    margin: 0 1.5% 1.5% 1.5%;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid #d1c735;
+    border-radius: 10px;
+    padding: 10px 20px 10px 10px;
+}
+
+.productos li:hover {
+    border-color: #c78c19;
+}
+
+.productos li:active{
+    border-color: #088c19;
+}
+
+.productos li:hover h2 {
+    font-size: 33px ;
+    
+}
+
+.productos h2{
+    font-size: 30px ;
+    font-weight: bold;
+    color: #088c19;
+}
+.producto-descripcion{
+    font-size: 18px;
+    color: #088c19;
+}
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #088c19;
+}
+
+.imagen-productos{
+    width: 100%;
+    height: auto; 
+    object-fit: cover;    
+}
+
+footer {
+    text-align: center;    
+    background: url(imagenes/Footer2VF.png);
+    padding: 40px;
+}
+
+.copyright {
+    color: #C82E10;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+main{
+    
+    padding: 15px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+    background: #f5f4f1;
+    
+}
+
+.input-padron2 {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+    background: #f5f4f1;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;  
+    padding: 15px 0;   
+    font-size: 18px;     
+    font-weight: bold;   
+    color: #FFFFFF;  
+    background: orange;  
+    border: none;    
+    border-radius: 5px; 
+    transition: 1s all;  
+    transition: 1s background;  
+    cursor: pointer;
+}
+
+.enviar:hover{ 
+    background: darkorange;  
+    transform: scale(1.2);    
+}
+
+table{ 
+    margin: 40px 40px;
+}
+
+thead{ 
+    background: #555555; 
+    color: white; 
+    font-weight: bold; 
+}
+
+td,th{ 
+    border: 1px solid #000000; 
+    padding: 8px 15px; 
+}
+
+/* Aqui inicia el CSS para nuestra pagina home - index*/
+
+.banner{
+    width: 100%;
+}
+
+.principal{
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em; 
+    margin: 0 0 1em; 
+    clear: left;
+
+}
+
+.principal p{ 
+    margin: 0 0 1em;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;    
+}
+
+.utensilios{
+    width: 400px; 
+    float: left; 
+    margin: 0 20px 20px 0; 
+}
+
+.mapa{
+    padding: 2em 0;
+}                                                   
+
+
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+.diferenciales{
+    padding: 1em 0;
+}
+
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items{
+    line-height: 1.5; 
+}
+
+.items:before{
+    content: "🚑"; 
+}
+
+.items:first-child{ 
+    font-weight: bold;
+
+}
+.imagen-diferenciales{
+    width: 60%;
+    transition: 400ms; 
+    box-shadow: 10px 10px 30px 15px #FEFEFE; 
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+    
+}
+.video{
+    width: 800px; 
+    margin: 1em auto;
+    
+}
+
+
+
+.whatsApp h2{
+    font-size: 20px;
+    font-weight: bold;
+    color:#088c19;
+    padding:10px 15px 15px 15px;
+    
+
+}
+
+.whatsApp h2:before{
+    content: "✆"; 
+}
+    
+.whatsApp{
+
+    p{
+        font-size: 20px;
+        font-weight: bold;
+        color:#088c19
+        
+    }
+
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 15px 15px 15px;
+        background-color: #f4f4f4;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #25D366;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    a:hover {
+        background-color: #128C7E;
+    }
+}
+
+@media screen and (max-width:480px){ 
+
+    .principal {
+        padding: 3em 0;
+        width: 100%; 
+    }
+      
+      .utensilios {
+        width: 100%; 
+        float: none; 
+        margin: 0; 
+    }
+
+    
+
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .titulo-principal, .mapa p {
+        text-align: center;
+    }
+      
+
+    .contenedor-imagen{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .contenedor-imagen img {
+        width: 100%;
+        height: auto;
+    }
+
+    
+    nav a{
+        position: static;
+        text-align: center;
+        font-size: 20px;
+        font-size-adjust: inherit;
+        
+    }
+    
+    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .pieDePagina{
+        width: auto;
+    }
+
+    .lista-diferenciales, .imagen-diferenciales{
+        width: 100%;
+    }
+    
+
+
+}
+
+@media screen and (max-width:480px){
+    footer{
+        width: 400px; 
+        float: left; 
+        margin: 0 20px 20px 0; 
+
+    }
+
+}
